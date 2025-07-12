@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Project</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <Link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script defer 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header id="home">
+        <nav>
+            <ul class="nav-links" id="navbarNavAltMarkup">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#journey">My Journey</a></li>
+                <li><a href="#journey">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+             <div class="hamburger">
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+       <i class="fa-solid fa-bars"></i>
+    </button>
+        </div>
+        </nav>
+         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-center text-white text-center text-white" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center text-white" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center text-white" href="#journey">My Journey</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center text-white" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center text-white" href="#contact">Contact Support</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+        <div class="header-content text-center">
+            <h4>Hi My Name Is <span style="color: aqua;">Mohit</span>  <br>and I am a  <span id="element"></span></h4>
+        <div class="social-icons text-center">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            
+        </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+        <div class="profile-picture-container">
+            <img src="./image/WhatsApp Image 2025-07-11 at 18.38.37_308eccae.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+        </div>
+    </header>
+    <main class="container" style="margin-top: 7rem;">
+        <section class="about" id="about">
+            <div class="section-heading">
+            <h2 class="text-center ">About Me</h2>
+            </div>
+            <p>I'm a B.Tech ECE student at IIIT Delhi (Batch of 2028) with a strong interest in web development, game development, and core electronics. I enjoy working on projects that combine creativity and technology, using programming languages like Python and Java. Whether it's building web apps, exploring game design, or diving into ECE tools and systems, I'm always eager to learn and expand my skill set across both software and hardware domains.</p>
+        </section>
+    </main>
+    <section class="skills container-fluid" id="skills">
+        <div class="section-heading">
+            <i class="fa-solid fa-chalkboard-user" style="font-size: 2.5rem; margin-right: 1rem;"></i>
+            <h2 class="text-center">Skills</h2>
+        </div>
+        <div class="skills-list">
+            <div class="skill-item">
+                <i class="fa-brands fa-cuttlefish"></i>
+                <span>C++</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML &amp; CSS</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-cube"></i>
+                <span>Unreal Engine 5</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-figma"></i>
+                <span>Figma</span>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git &amp; GitHub</span>
+            </div>
+        </div>
+        
+       </section>
+        
+    <section class="journey container" id="journey">
+        <div class="section-heading">
+            <i class="fa-solid fa-rocket" style="font-size: 2.5rem; margin-right: 1rem;"></i>
+            <h2 class="text-center">My Journey</h2>
+        </div>
+        <div class="timeline">
+            <div class="timlinebox">
+                <div class="timeline-head ">
+                    <div class="timeline-date">
+                    </div>
+                    <div class="timeline-title pl-1 d-flex justify-content-space-between gap-5">
+                    
+                <i class="fa-solid fa-child" style="font-size: 2.5rem;"></i>
+                <div>
+                <h2>My Birth</h2>
+                <span class="timeline-year">14-03-2007</span>
+                <p>Born in 2007, I started my journey in the world of technology and learning.
+                    From a young age, I was fascinated by computers and electronics. 
+                </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="timlinebox">
+                <div class="timeline-head ">
+                    <div class="timeline-date">
+                    </div>
+                    <div class="timeline-title pl-1 d-flex justify-content-space-between gap-5">
+                    
+                <img src="./image/images.png" alt="Profile Picture" class="profile-picture" width="50" height="50">
+                <div>
+                <h2>Schooling</h2>
+                <span class="timeline-year">2010-2023</span>
+                <p>
+                    I completed my schooling at Hansraj Model Public School, where I developed a strong foundation in academics and participated in various extracurricular activities.  </p>
+                </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="timlinebox">
+                <div class="timeline-head ">
+                    <div class="timeline-date">
+                    </div>
+                    <div class="timeline-title pl-1 d-flex justify-content-space-between gap-5">
+                    
+                <img src="./image/Screenshot 2025-07-11 224022.png" alt="Profile Picture" class="profile-picture" width="50" height="50">
+                <div>
+                <h2>Competitive Exams</h2>
+                <span class="timeline-year">2023-2024</span>
+                <p>
+                During this period, I appeared for several competitive exams. I scored 95.2% in my 10th CBSE board exams and 93.2% in my 12th CBSE board exams. In JEE Main, I achieved a percentile of 98.5, and my JEE Advanced rank was 9999.
+                </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="timlinebox">
+                <div class="timeline-head ">
+                    <div class="timeline-date">
+                    </div>
+                    <div class="timeline-title pl-1 d-flex justify-content-space-between gap-5">
+                    
+                <img src="./image/iiitd_logo.png" alt="Profile Picture" class="profile-picture" width="50" height="50">
+                <div>
+                <h2>College Life</h2>
+                <span class="timeline-year">2024-2028</span>
+                <p>
+                I am currently pursuing B.Tech in Electronics and Communication Engineering (ECE) at IIIT Delhi. I have actively participated in various projects and technical clubs, enhancing my skills in programming and electronics. As of Semester 2, my CGPA stands at 8.2.
+                </p>
+                </div>
+                </div>
+            </div>
+            </div>
+        <div class="timeline-divider">
+            <div class="timeline-traveller">
+                <i class="fas fa-plane" style="font-size: 2.5rem;"></i>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="Portfolio" id="portfolio">
+        <div class="section-heading">
+            <i class="fa-solid fa-briefcase" style="font-size: 2.5rem; margin-right: 1rem;"></i>
+            <h2 class="text-center">Portfolio</h2>
+        </div>
+        <div class="portfolio-items d-flex flex-wrap justify-content-center">
+            <div class="portfolio-item">
+                <img src="./image/project.jpeg" alt="Portfolio Item 1">
+                <div class="portflio-item-description">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/project_2.jpeg" alt="Portfolio Item 2">
+                <div class="portflio-item-description">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/project_3.png" alt="Portfolio Item 3">
+                <div class="portflio-item-description">
+                <h3>Project Title 3</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/tree.jpeg" alt="Portfolio Item 4">
+                <div class="portflio-item-description">
+                <h3>Project Title 4</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/codezen_2.png" alt="Portfolio Item 5">
+                <div class="portflio-item-description">
+                <h3>Project Title 5</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/codezen.png" alt="Portfolio Item 6">
+                <div class="portflio-item-description">
+                <h3>Project Title 6</h3>
+                <p>Short description of the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="section-heading">
+            <i class="fa-solid fa-envelope" style="font-size: 2.5rem; margin-right: 1rem;"></i>
+            <h2 class="text-center">Contact Me</h2>
+        </div>
+        <div class="contact-form container gap-5">
+            <div class="row">
+        <div class="col-md-6 col-12 contact-form-left">
+            
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Message"></textarea>
+                </div>
+                <button type="submit" >Send Message</button>
+            </form>
+        </div>
+       <footer class="text-white py-4 col-md-6 mb-3">
+                <h5 style="font-weight: 600;">Get-In Touch</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="fa-solid fa-phone me-2"></i> 
+                        <a href="tel:+918800818916" class="text-white text-decoration-none">+91 8800818916</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        <a href="mailto:guptamohit75036@gmail.com" class="text-white text-decoration-none">guptamohit75036@gmail.com</a>
+                    </li>
+                </ul>
+            
+
+            <!-- Optional: Address or Links -->
+            <div class="col-md-6">
+                <h5 style="font-weight: 600;">My Address</h5>
+                <p>76 Ashoka Park Main, Rohtak Road, New Delhi - 110035</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.458116351788!2d77.1509068752908!3d28.675939675641004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d024e03713a7d%3A0x54880cf4a03ade35!2sRampura%20Marg%2C%20Tri%20Nagar%2C%20Delhi%2C%20110035!5e0!3m2!1sen!2sin!4v1752298369746!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+</footer>
+
+        <div class="col-12 contact-form-left" style="margin-bottom: 0rem; padding: 0rem;">
+             <div class="social-icons text-center" >
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            
+        </div>
+            </div>
+        </div>
+        </div>
+        </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Software Engineer', 'Tech Enthusiast'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
